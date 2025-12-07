@@ -3,7 +3,7 @@ import os
 import joblib
 import numpy as np
 from flask import Flask, render_template, request, redirect, url_for
-import seaborn as sns
+import matplotlib.pyplot as plt
 APP_ROOT = os.path.dirname(__file__)
 MODEL_DIR = os.path.join(APP_ROOT, "models")
 
